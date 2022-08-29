@@ -1,0 +1,226 @@
+html, body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.menus{
+    width: 100vw;
+    height: 7vh;
+    border: 1px solid #000;
+}
+
+
+
+main{
+    width: 100vw;
+    height: 100vh;
+    /*background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        #fff,
+        #888,
+        #000
+    );*/
+}
+
+article{
+    width: 95vw;
+    height: 90vh;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+.imgprincipal{
+    max-width: 30vw;
+    max-height: 30vh;
+    width: 30vw;
+    height: 30vh;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+.imgmenor{
+    max-width: 21vw;
+    max-height: 21vh;
+    width: 21vw;
+    height: 21vh;
+    border: 1px solid #000;
+    float: left;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+.imgmenor2{
+    max-width: 21vw;
+    max-height: 21vh;
+    width: 21vw;
+    height: 21vh;
+    border: 1px solid #000;
+    float: right;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.imgtutorial{
+    max-width: 50vw;
+    max-height: 40vh;
+    width: 50vw;
+    height: 40vh;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.conteudoextra{
+    width: 75vw;
+    height: 70vh;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+.videoconteudo{
+    width: 50vw;
+    height: 50vh;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+}
+
+body {
+
+    padding: 0;
+
+    margin: 0;
+
+    background-color: #454d6b;
+
+}
+
+#login {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.card {
+
+    background-color: rgba(19, 19, 19, 0.3);
+
+    padding: 40px;
+
+    border-radius: 2px;
+
+    width:280px;
+
+}
+
+.card-header {
+
+    padding-bottom: 50px;
+
+    opacity: 0.8;
+
+    color: #fff;
+
+}
+
+.card-header::after {
+
+    content: "";
+
+    width: 70px;
+
+    height: 1px;
+
+    background-color: #fff;
+
+    display: block;
+
+    margin-top: -17px;
+
+    margin-left: -5px;
+
+}
+
+.card-content label {
+
+    color: #fff;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+}
+
+.card-content-area {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+
+}
+
+.card-content-area input {
+
+    margin-top: 10px;
+
+    padding:0 5px;
+
+    background-color: transparent;
+
+    border:none;
+
+    border-bottom: 1px solid #e1e1e1;
+
+    outline: none;
+
+    color: #fff;
+
+}
+
+.card-footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.card-footer .submit{
+
+    width: 100%;
+
+    height: 40px;
+
+    background-color: #a13854;
+
+    border:none;
+
+    color:#e1e1e1;
+
+    margin: 10px 0;
+
+    cursor: pointer;
+
+}
+
+#cadastro{
+    display: none;
+}
+
+p{
+    line-height: 5px;
+}
